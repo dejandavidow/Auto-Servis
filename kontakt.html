@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+	<img class="logo" src="slike/logo.png">
+		<ul>
+		<li><a class="LinkoviMeni" href="index.html">Početna</a></li>
+		<li><a class="LinkoviMeni" href="onama.html">O nama</a></li>
+		<div class="padajuci">
+			<a id="padlink" href="#">Usluge</a>
+			<div class="padajuciElementi">
+				<a id="padtekst" href="servis.html">Servis</a>
+				<a id="padtekst" href="klima.html">Klima Uredjaji</a>
+				<a id="padtekst" href="auspuh.html">Izduvni Sistemi</a>
+			</div>
+		</div>
+        <li><a class="LinkoviMeni" href="Galerija.html">Galerija</a></li>
+		<li><a class="LinkoviMeni" href="#">Kontakt</a></li>
+	</ul>
+</nav>
+<header class="headerkontakt"></header>
+<h2 id="tekst">Kontakt podaci</h2>
+	<hr id="linija">
+	<div class="sredina">
+		<div class="div-wrap">
+			<div class="divbelo">
+			<div class="divkontakt">
+		<h4 id="tekst2">Radno Vreme:</h4>
+		<p id="tekst2">Ponedeljak:8-16h</p>
+		<p id="tekst2">Utorak:8-16h</p>
+		<p id="tekst2">Sreda:8-16h</p>
+		<p id="tekst2">Četvrtak:8-16h</p>
+		<p id="tekst2">Petak:8-16h</p>
+		<p id="tekst2">Subota:8-15h</p>
+		<p id="tekst2">Nedelja:Ne radimo</p>
+	</div>
+	<div class="divkontakt">
+		<h4 id="tekst2">Podaci:</h4>
+		<p id="tekst2">Adresa:Kneza Mihajla</p>
+		<p id="tekst2">Broj:150</p>
+		<p id="tekst2">PIB:101515623</p>
+		<p id="tekst2">MB:0303045032</p>
+		<p id="tekst2">Kontakt telefon:055-333-5532</p>
+		<p id="tekst2">FAX:022-323-444</p>
+		<p id="tekst2">e-mail:mm@servis.com</p>
+	</div>
+	</div>		
+		</div>
+	</div>
+	<h2 id="tekst">Imate pitanje? Popunite formu</h2>
+	<hr id="linija">
+	<form >
+	<fieldset>
+		<legend>Popunite obrazac</legend>
+		<p>Ime:</p>
+		<input type="text" minlength="3" required>
+		<p>Prezime:</p>
+		<input type="text" minlength="3" required><br>
+		<p>E-mail:</p>
+		<input type="email" required placeholder="adresa@mejl.com">
+		<p>Godiste:</p>
+		<input type="number" min="1900" max="2020" value="1998" required>
+		<p>Država:</p>
+		<select>
+				<option></option>
+				<option>Srbija</option>
+				<option>BiH</option>
+				<option>Crna Gora</option>
+				<option>Makedonija</option>
+		</select>
+		<p>Pol:</p>
+		<input type="radio" name="Pol">M
+		<input type="radio" name="Pol">Ž<br><br>
+		<textarea cols="100" rows="25" placeholder="Vasa pitanja ovde..."></textarea><br>
+		<p>Saglasan sam sa podacima unetim iznad:</p>
+		<input type="checkbox" checked required>Da
+		<input type="checkbox">Ne
+		<br>
+		<br>
+		<input type="submit" value="Pošalji">
+		<input type="reset" value="Odustani">
+	</fieldset>
+	</form>
+	<footer class="footer">
+	<a class="dvrh" href="#"></a>
+	<p>Dejan Davidović IT18/19</p>
+</footer>	
+</body>
+</html>
