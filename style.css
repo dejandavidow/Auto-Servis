@@ -526,7 +526,11 @@ input[type=email]:focus
 	{
 		width:100%;
 	}
-	footer
+	.divc
+	{
+		display:none;
+	}
+	.pz
 	{
 		display:none;
 	}
