@@ -524,7 +524,8 @@ input[type=email]:focus
 	}
 	.header
 	{
-		width:100%;
+		width:50%;
+		height:50%;
 	}
 	.divc
 	{
