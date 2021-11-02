@@ -522,5 +522,9 @@ input[type=email]:focus
 	{
 	text-align: left;
 	}
+	.header
+	{
+		width:100%;
+	}
 }
 
