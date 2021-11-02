@@ -526,5 +526,9 @@ input[type=email]:focus
 	{
 		width:100%;
 	}
+	.pz
+	{
+		display:none;
+	}
 }
 
