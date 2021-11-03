@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+Sitemap: https://dejandavidow.github.io/Auto-Servis/sitemap.xml
+
